@@ -18,6 +18,7 @@ cd /run
 . disk.sh       # Initialize disks
 . display.sh    # Initialize graphics
 . network.sh    # Initialize network
+. envvar.sh     # Add environment variables from host
 . samba.sh      # Configure samba
 . boot.sh       # Configure boot
 . proc.sh       # Initialize processor
